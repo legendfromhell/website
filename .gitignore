@@ -1,0 +1,54 @@
+echo "# website" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/legendfromhell/website.git
+git push -u origin main<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=windows-1252">
+	<TITLE>My Simple Website</TITLE>
+	<META NAME="GENERATOR" CONTENT="OpenOffice 4.1.13  (Win32)">
+	<META NAME="CREATED" CONTENT="0;0">
+	<META NAME="CHANGED" CONTENT="20230227;8092692">
+	<STYLE TYPE="text/css">
+	<!--
+		H2.cjk { font-family: "SimSun" }
+		H2.ctl { font-family: "Arial" }
+	-->
+	</STYLE>
+</HEAD>
+<BODY LANG="en-IN" DIR="LTR">
+<H1>Welcome to my website!</H1>
+<UL>
+	<LI><P STYLE="margin-bottom: 0cm"><A HREF="#about">About</A> 
+	</P>
+	<LI><P STYLE="margin-bottom: 0cm"><A HREF="#services">Services</A> 
+	</P>
+	<LI><P><A HREF="#contact">Contact</A> 
+	</P>
+</UL>
+<H2 CLASS="western">About Us</H2>
+<P>go and eat poop by aman 
+</P>
+<H2 CLASS="western">Our Services</H2>
+<UL>
+	<LI><P STYLE="margin-bottom: 0cm">Website design 
+	</P>
+	<LI><P STYLE="margin-bottom: 0cm">Website development 
+	</P>
+	<LI><P>Search engine optimization 
+	</P>
+</UL>
+<H2 CLASS="western">Contact Us</H2>
+<FORM ACTION="">
+	<P><A NAME="name"></A><A NAME="email"></A><A NAME="message"></A>Name:
+	<INPUT TYPE=TEXT NAME="name" SIZE=20 STYLE="width: 4.34cm; height: 2.43cm"><BR>Email:
+	<INPUT TYPE=TEXT NAME="email" SIZE=20 STYLE="width: 4.34cm; height: 0.74cm"><BR>Message:
+		<TEXTAREA NAME="message" ROWS=1 COLS=20 STYLE="width: 4.79cm; height: 0.98cm"></TEXTAREA><BR><INPUT TYPE=SUBMIT VALUE="Submit" STYLE="width: 1.8cm; height: 0.93cm">
+		</P>
+</FORM>
+<P>&copy; 2023 My Simple Website</P>
+</BODY>
+</HTML>
